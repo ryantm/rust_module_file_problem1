@@ -1,3 +1,4 @@
+````terminal
 ryantm@ ~/projects/rust/ecdsa/rust_ecdsa/test (master)$ ls
 county.rs  farm.rs
 ryantm@ryantm0j132 ~/projects/rust/ecdsa/rust_ecdsa/test (master)$ rustc --version
@@ -12,3 +13,4 @@ ryantm@ ~/projects/rust/ecdsa/rust_ecdsa/test (master)$ rustc county.rs
 county.rs:2:9: 2:13 error: file not found for module `farm`
 county.rs:2     mod farm;
                     ^~~~
+````
